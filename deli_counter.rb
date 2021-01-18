@@ -7,7 +7,7 @@ def line(katz_deli)
     #print "The line is currently:" these two lines failed the tests due to the use of print in place of puts it seems
     katz_line = []
     katz_deli.each_with_index {|element, i| katz_line << " #{i+1}. #{element} "}
-
+    puts ""
 
   end
 end
