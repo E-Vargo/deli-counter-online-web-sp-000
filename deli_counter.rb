@@ -11,12 +11,14 @@ def line(katz_deli)
 end
 
 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli, person)
   katz_line1 = []
   if katz_deli.size == 0
+    katz_line1 << person
+  elsif 
+    
 
-
-
+  end
 end
 
 
