@@ -12,13 +12,8 @@ end
 
 
 def take_a_number(katz_deli, person)
-  katz_line1 = []
-  if katz_deli.size == 0
-    katz_deli << person
-  elsif katz_deli.size > 0
-    katz_line1 << person
-
-end
+  katz_deli.push(person)
+  puts "Welcome, #{person}. You are number #{katz_Deli.length} in line."
 end
 
 
