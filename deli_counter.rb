@@ -6,6 +6,7 @@ def line(katz_deli)
   elsif katz_deli.size > 0
     #print "The line is currently:" these two lines failed the tests due to the use of print in place of puts it seems
     #katz_deli.each_with_index {|element, i| print " #{i+1}. #{element} "}
+    puts "The line is currently: #{katz_deli.each_with_index {|element, i| print " #{i+1}. #{element} "}}"
 
   end
 end
