@@ -12,6 +12,7 @@ end
 
 
 def take_a_number(katz_deli)
+  katz_line1 = []
   if katz_deli.size == 0
 
 
