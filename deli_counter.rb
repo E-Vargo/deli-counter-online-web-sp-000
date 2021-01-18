@@ -6,7 +6,7 @@ def line(katz_deli)
   elsif katz_deli.size > 0
 
     katz_line = []
-    katz_deli.each_with_index {|element, i| katz_line << " #{i+1}. #{element} "}
+    katz_deli.each_with_index {|element, i| katz_line << " #{i+1}. #{element}"}
     puts "The line is currently:#{katz_line.join}"
 
   end
